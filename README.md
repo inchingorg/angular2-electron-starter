@@ -371,6 +371,30 @@ import * as _ from 'lodash';
 
 # Deployment
 
+## Build Desktop
+
+build files
+
+```sh
+# development
+npm run build:dev
+
+# production
+npm run build:prod
+```
+
+Preview electron (without angular build)
+
+```sh
+npm run electron
+```
+
+Create electron package (build included)
+
+```sh
+npm run package
+```
+
 ## Netlify
 
 You can quickly create a free site to get started using this
