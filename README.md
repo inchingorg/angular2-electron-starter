@@ -224,6 +224,28 @@ npm run e2e:live
 npm run build:docker
 ```
 
+### Build Desktop
+
+```sh
+# development
+npm run build:dev
+
+# production
+npm run build:prod
+```
+
+Preview electron (without angular build)
+
+```sh
+npm run electron
+```
+
+Create electron package (build included)
+
+```sh
+npm run package
+```
+
 # Configuration
 Configuration files live in `config/` we are currently using webpack, karma, and protractor for different stages of your application
 
@@ -370,30 +392,6 @@ import * as _ from 'lodash';
 * [Gitter: AngularClass/angular2-webpack-starter](https://gitter.im/angularclass/angular2-webpack-starter)
 
 # Deployment
-
-## Build Desktop
-
-build files
-
-```sh
-# development
-npm run build:dev
-
-# production
-npm run build:prod
-```
-
-Preview electron (without angular build)
-
-```sh
-npm run electron
-```
-
-Create electron package (build included)
-
-```sh
-npm run package
-```
 
 ## Netlify
 
